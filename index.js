@@ -1,6 +1,6 @@
 import express from 'express';
 require('dotenv').config();
-import { OpenAIClient } from "@azure/openai";
+import OpenAIClient from "@azure/openai";
 import { AzureKeyCredential } from "@azure/core-auth";
 import configureHttpServer from './services/httpserver.js';
 const app = express();
