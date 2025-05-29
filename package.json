@@ -7,6 +7,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@azure/core-auth": "^1.9.0",
     "@azure/openai": "^2.0.0",
     "body-parser": "^1.19.2",
     "cross-env": "^7.0.3",
